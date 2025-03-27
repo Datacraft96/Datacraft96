@@ -42,7 +42,7 @@
     </div>
     <div class="container" id="contact">
         <h2>Contact Us</h2>
-        <p>Email: contact@datacraft.com | Phone: +91 98765 43210</p>
+        <p>Email: contact@datacraft.com | Phone: +91 8605744143 </p>
     </div>
     <footer>
         <p>&copy; 2025 Datacraft Solutions. All Rights Reserved.</p>
