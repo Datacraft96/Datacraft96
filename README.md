@@ -11,10 +11,13 @@
         nav a { margin: 0 15px; text-decoration: none; color: #333; font-weight: bold; }
         .container { padding: 20px; text-align: center; }
         footer { background: #0073e6; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+        img.logo { width: 150px; display: block; margin: 0 auto; }
+        .banner { width: 100%; max-height: 300px; object-fit: cover; }
     </style>
 </head>
 <body>
     <header>
+        <img src="logo.png" alt="Datacraft Solutions Logo" class="logo">
         <h1>Welcome to Datacraft Solutions</h1>
         <p>Your trusted partner for Data Entry and Presentation</p>
     </header>
@@ -24,6 +27,7 @@
         <a href="#about">About Us</a>
         <a href="#contact">Contact</a>
     </nav>
+    <img src="banner.jpg" alt="Datacraft Solutions Banner" class="banner">
     <div class="container" id="home">
         <h2>Home</h2>
         <p>Providing top-notch data entry and presentation services to streamline your business.</p>
