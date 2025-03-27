@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -51,7 +51,8 @@
     </div>
     <div class="container hidden" id="contact">
         <h2>Contact Us</h2>
-        <p>Email: datacraftsolutionss@gmail.com</p>
+        <p>Email: datacraftsolutionss@gmail.com
+        Contact-+918605744143</p>
     </div>
     <footer>
         <p>&copy; 2025 Datacraft Solutions. All Rights Reserved.</p>
