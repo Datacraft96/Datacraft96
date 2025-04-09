@@ -25,10 +25,10 @@
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="Datacraft Solutions Logo" class="logo">
-        <h1>Welcome to Datacraft Solutions</h1>
-        <p>"Transforming Data, Empowering Decisions"</p>
-    </header>
+    <img src="DATA LOGO.jpg" alt="Datacraft Solutions Logo" class="logo">
+    <h1>Welcome to Datacraft Solutions</h1>
+    <p>"Transforming Data, Empowering Decisions"</p>
+</header>
     <nav>
         <a onclick="showSection('home')">Home</a>
         <a onclick="showSection('services')">Services</a>
