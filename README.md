@@ -97,9 +97,9 @@
 
     <h3>Register with Us</h3>
     <p><strong>Fill the form below to let us know how we can help you:</strong></p>
+    
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdA5aSR9sfL_rnv_-Ls4l9Q96dijPNPK1USAyZqDMvfw6S25w/viewform?embedded=true" width="700" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
-    <!-- 👉 Replace this with your actual Google Form embed URL -->
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdA5aSR9sfL_rnv_-Ls4l9Q96dijPNPK1USAyZqDMvfw6S25w/viewform?usp=preview" allowfullscreen></iframe>
   </div>
 
   <!-- ABOUT -->
