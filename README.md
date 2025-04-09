@@ -95,7 +95,7 @@
     <h2>Why Data Presentation Matters</h2>
     <p>In today’s fast-paced world, people have so much to do — why get stuck figuring out data? Let us handle your data needs while you focus on what matters most. Good data presentation saves time, improves clarity, and empowers smarter decision-making.</p>
 
-    <h3>Register with Us</h3>
+    <h3>Get Your Free Data Consultation <br>Share Your Data Challenge in the Form</h3>
     <p><strong>Fill the form below to let us know how we can help you:</strong></p>
     
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdA5aSR9sfL_rnv_-Ls4l9Q96dijPNPK1USAyZqDMvfw6S25w/viewform?embedded=true" width="700" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
