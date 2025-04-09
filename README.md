@@ -6,68 +6,101 @@
   <title>Datacraft Solutions</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f9f9f9;
-      color: #111;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
     }
+
     header {
-      background: #013440;
-      color: white;
-      text-align: center;
-      padding: 25px;
+        background: #d0a85c; /* logo tone */
+        color: white;
+        text-align: center;
+        padding: 15px;
     }
+
     nav {
-      background: #dceef1;
-      text-align: center;
-      padding: 15px;
+        text-align: center;
+        padding: 10px;
+        background: #f4f4f4;
+        flex-wrap: wrap;
     }
+
     nav a {
-      margin: 0 20px;
-      text-decoration: none;
-      color: #013440;
-      font-weight: bold;
-      font-size: 16px;
-      cursor: pointer;
+        margin: 10px 15px;
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        display: inline-block;
     }
-    nav a:hover {
-      color: #029db2;
-    }
-    .logo {
-      width: 120px;
-      height: auto;
-      display: block;
-      margin: 0 auto 10px auto;
-    }
+
     .container {
-      padding: 30px;
-      text-align: center;
+        padding: 20px;
+        text-align: center;
     }
-    .hidden {
-      display: none;
-    }
+
     footer {
-      background: #013440;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      font-size: 14px;
+        background: #d0a85c;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
     }
+
+    img.logo {
+        width: 120px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .banner {
+        width: 100%;
+        max-height: 300px;
+        object-fit: cover;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .graphics {
+        max-width: 100%;
+        margin: 20px auto;
+        display: block;
+    }
+
     iframe {
-      border: none;
-      width: 100%;
-      max-width: 700px;
-      height: 600px;
-      margin-top: 20px;
+        width: 100%;
+        max-width: 700px;
+        height: 600px;
+        border: none;
     }
-    ul { list-style: none; padding: 0; }
-    li { margin: 10px 0; }
-    .contact-info {
-      margin-top: 20px;
-      font-weight: bold;
+
+    @media (max-width: 768px) {
+        header h1 {
+            font-size: 1.5rem;
+        }
+
+        nav {
+            flex-direction: column;
+        }
+
+        nav a {
+            margin: 10px 5px;
+            font-size: 1rem;
+        }
+
+        .container {
+            padding: 10px;
+        }
+
+        iframe {
+            height: 500px;
+        }
     }
-  </style>
+</style>
+
   <script>
     function showSection(sectionId) {
       document.querySelectorAll('.container').forEach(section => section.classList.add('hidden'));
