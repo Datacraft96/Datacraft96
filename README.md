@@ -5,50 +5,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Datacraft Solutions</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
-    header { background: #0073e6; color: white; text-align: center; padding: 20px; }
-    nav { background: #f4f4f4; text-align: center; padding: 15px; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #111;
+    }
+    header {
+      background: #013440;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+    nav {
+      background: #dceef1;
+      text-align: center;
+      padding: 15px;
+    }
     nav a {
       margin: 0 20px;
       text-decoration: none;
-      color: #0073e6;
+      color: #013440;
       font-weight: bold;
       font-size: 16px;
       cursor: pointer;
     }
-    nav a:hover { color: #004b99; }
-    .logo { width: 120px; height: auto; display: block; margin: 0 auto 10px auto; }
-    .container { padding: 30px; text-align: center; }
-    .hidden { display: none; }
+    nav a:hover {
+      color: #029db2;
+    }
+    .logo {
+      width: 120px;
+      height: auto;
+      display: block;
+      margin: 0 auto 10px auto;
+    }
+    .container {
+      padding: 30px;
+      text-align: center;
+    }
+    .hidden {
+      display: none;
+    }
     footer {
-      background: #0073e6;
+      background: #013440;
       color: white;
       text-align: center;
-      padding: 12px;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
+      padding: 15px;
+      font-size: 14px;
     }
-    form { margin-top: 20px; max-width: 500px; margin-left: auto; margin-right: auto; }
-    input, textarea {
-      display: block;
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
-    button {
-      background: #0073e6;
-      color: white;
-      padding: 10px 20px;
+    iframe {
       border: none;
-      border-radius: 4px;
-      cursor: pointer;
+      width: 100%;
+      max-width: 700px;
+      height: 600px;
+      margin-top: 20px;
     }
-    button:hover { background: #005bb5; }
     ul { list-style: none; padding: 0; }
     li { margin: 10px 0; }
+    .contact-info {
+      margin-top: 20px;
+      font-weight: bold;
+    }
   </style>
   <script>
     function showSection(sectionId) {
@@ -69,6 +87,7 @@
     <a onclick="showSection('about')">About</a>
     <a onclick="showSection('vision')">Vision</a>
     <a onclick="showSection('services')">Services</a>
+    <a onclick="showSection('contact')">Contact</a>
   </nav>
 
   <!-- HOME -->
@@ -77,14 +96,10 @@
     <p>In today’s fast-paced world, people have so much to do — why get stuck figuring out data? Let us handle your data needs while you focus on what matters most. Good data presentation saves time, improves clarity, and empowers smarter decision-making.</p>
 
     <h3>Register with Us</h3>
-    <form>
-      <input type="text" placeholder="Full Name" required />
-      <input type="email" placeholder="Email" required />
-      <input type="tel" placeholder="Phone Number" required />
-      <textarea placeholder="Describe your problem or what you need from Datacraft Solutions..." required></textarea>
-      <input type="text" placeholder="Enter OTP (sent to your phone)" required />
-      <button type="submit">Register</button>
-    </form>
+    <p><strong>Fill the form below to let us know how we can help you:</strong></p>
+
+    <!-- 👉 Replace this with your actual Google Form embed URL -->
+    <iframe src="YOUR_GOOGLE_FORM_EMBED_URL_HERE" allowfullscreen></iframe>
   </div>
 
   <!-- ABOUT -->
@@ -97,7 +112,7 @@
   <!-- VISION -->
   <div class="container hidden" id="vision">
     <h2>Our Vision</h2>
-    <p>To be the leading data service provider empowering businesses and individuals to make informed decisions by delivering clear, beautiful, and actionable data presentations. We aim to make data handling stress-free, accurate, and accessible for everyone.</p>
+    <p>To become the go-to data partner for organizations across industries, delivering clear, elegant, and meaningful data solutions that empower smarter choices and measurable success. Our vision is data clarity, your vision made real.</p>
   </div>
 
   <!-- SERVICES -->
@@ -112,8 +127,19 @@
     <p><strong>First Task is FREE!</strong> Try us risk-free and see the value we bring.</p>
   </div>
 
+  <!-- CONTACT -->
+  <div class="container hidden" id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or want to connect with us directly, feel free to reach out.</p>
+    <div class="contact-info">
+      📧 Email: <a href="mailto:datacraftsolutionss@gmail.com">datacraftsolutionss@gmail.com</a><br/>
+      📞 Phone: <a href="tel:+918605744143">+91 86057 44143</a>
+    </div>
+  </div>
+
   <footer>
-    <p>&copy; 2025 Datacraft Solutions. All rights reserved.</p>
+    <p>&copy; 2025 Datacraft Solutions. All rights reserved.<br>
+    📧 datacraftsolutionss@gmail.com | 📞 +91 86057 44143</p>
   </footer>
 </body>
 </html>
