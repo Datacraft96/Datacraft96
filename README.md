@@ -5,100 +5,86 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Datacraft Solutions</title>
   <style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
+    /* Base styles (already good) */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
 
-    header {
-        background: #d0a85c; /* logo tone */
-        color: white;
-        text-align: center;
-        padding: 15px;
-    }
+header {
+  background: #d0a85c; /* logo-matching tone */
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
 
-    nav {
-        text-align: center;
-        padding: 10px;
-        background: #f4f4f4;
-        flex-wrap: wrap;
-    }
+nav {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-    nav a {
-        margin: 10px 15px;
-        text-decoration: none;
-        color: #333;
-        font-weight: bold;
-        display: inline-block;
-    }
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+}
 
-    .container {
-        padding: 20px;
-        text-align: center;
-    }
+.container {
+  padding: 20px;
+  text-align: center;
+}
 
-    footer {
-        background: #d0a85c;
-        color: white;
-        text-align: center;
-        padding: 10px;
-        position: relative;
-        bottom: 0;
-        width: 100%;
-    }
+img.logo {
+  width: 120px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
 
-    img.logo {
-        width: 120px;
-        display: block;
-        margin: 0 auto;
-    }
+iframe {
+  width: 100%;
+  max-width: 700px;
+  height: 650px;
+  border: none;
+}
 
-    .banner {
-        width: 100%;
-        max-height: 300px;
-        object-fit: cover;
-    }
+/* Footer styling */
+footer {
+  background: #d0a85c;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 14px;
+  line-height: 1.6;
+}
 
-    .hidden {
-        display: none;
-    }
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.4rem;
+  }
 
-    .graphics {
-        max-width: 100%;
-        margin: 20px auto;
-        display: block;
-    }
+  nav a {
+    font-size: 14px;
+    margin: 8px;
+  }
 
-    iframe {
-        width: 100%;
-        max-width: 700px;
-        height: 600px;
-        border: none;
-    }
+  .container {
+    padding: 15px 10px;
+  }
 
-    @media (max-width: 768px) {
-        header h1 {
-            font-size: 1.5rem;
-        }
+  iframe {
+    height: 550px;
+  }
+}
 
-        nav {
-            flex-direction: column;
-        }
-
-        nav a {
-            margin: 10px 5px;
-            font-size: 1rem;
-        }
-
-        .container {
-            padding: 10px;
-        }
-
-        iframe {
-            height: 500px;
-        }
-    }
 </style>
 
   <script>
