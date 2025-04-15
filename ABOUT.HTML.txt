@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - Datacraft</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header><h1>About Us</h1></header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <section>
+    <h2 class="section-title">Who We Are</h2>
+    <p>We are a data services startup dedicated to delivering quality data entry, analysis, and visualization solutions. With years of experience in finance and reporting, we ensure precision, professionalism, and results.</p>
+  </section>
+  <footer>
+    <p>© 2025 Datacraft Solutions. All rights reserved.</p>
+  </footer>
+</body>
+</html>
