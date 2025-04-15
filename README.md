@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Datacraft Solutions</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
       font-family: 'Poppins', Arial, sans-serif;
@@ -15,6 +15,11 @@
       line-height: 1.6;
       word-wrap: break-word;
       overflow-wrap: break-word;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Merriweather', serif;
+      font-weight: 700;
     }
 
     header {
@@ -126,7 +131,7 @@
   </nav>
 
   <div class="container" id="home">
-    <h2>Why Data Presentation Matters</h2>
+    <h2>Why Data Presentation Matters?</h2>
     <p>In today’s fast-paced world, people have so much to do — why get stuck figuring out data? Let us handle your data needs while you focus on what matters most. Good data presentation saves time, improves clarity, and empowers smarter decision-making.</p>
     <h3>Get Your Free Data Consultation</h3>
     <p><strong>Fill the form below to let us know how we can help you:</strong></p>
